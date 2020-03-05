@@ -2,7 +2,7 @@ let app = document.getElementById('root');
 
 
 let request = new XMLHttpRequest();
-request.open('GET', 'https://newsapi.org/v2/top-headlines?sources=abc-news&apiKey=f11bdd5aaeaa46ed8f91cad909e6a604', true);
+request.open('GET', 'https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=f11bdd5aaeaa46ed8f91cad909e6a604', true);
 request.onload = function () {
 
     // Begin accessing JSON data here
