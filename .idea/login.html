@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NewzSite - Log In</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">NewzSite</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
+                    <a class="dropdown-item" href="business.html">Business</a>
+                    <a class="dropdown-item" href="entertainment.html">Entertainment</a>
+                    <a class="dropdown-item" href="health.html">Health</a>
+                    <a class="dropdown-item" href="science.html">Science</a>
+                    <a class="dropdown-item" href="sports.html">Sports</a>
+                    <a class="dropdown-item" href="technology.html">Technology</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSources" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News Sources</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownSources">
+                    <a class="dropdown-item" href="abcnews.html">ABC News</a>
+                    <a class="dropdown-item" href="associatedpress.html">Associated Press</a>
+                    <a class="dropdown-item" href="bbcnews.html">BBC News</a>
+                    <a class="dropdown-item" href="cnn.html">CNN</a>
+                    <a class="dropdown-item" href="espn.html">ESPN</a>
+                    <a class="dropdown-item" href="foxnews.html">Fox News</a>
+                    <a class="dropdown-item" href="mashable.html">Mashable</a>
+                    <a class="dropdown-item" href="nbcnews.html">NBC News</a>
+                    <a class="dropdown-item" href="thenewyorktimes.html">The New York Times</a>
+                    <a class="dropdown-item" href="techradar.html">TechRadar</a>
+                    <a class="dropdown-item" href="theverge.html">The Verge</a>
+                    <a class="dropdown-item" href="thewallstreetjournal.html">The Wall Street Journal</a>
+                </div>
+            </li>
+        </ul>
+        <div class="form">
+            <form action="search.html" method="GET">
+                <div class="form-inline my-2 my-lg-0" style="padding-right: 10px">
+                    <input class="form-control mr-sm-2" type="text" name="search" id="ex2">
+                    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="login" style="padding-right: 10px">
+            <a class="btn btn-info" href="login.html" role="button">Log In</a>
+        </div>
+        <div class="register">
+            <a class="btn btn-secondary" href="register.html" role="button" id="register">Register</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container center_div">
+    <H1 style="padding-top: 50px;"><a href="index.html" style="color: #000000; text-decoration: none;">NewzSite</a></H1>
+    <H5>Log In</H5>
+    <form id="logInForm" style="padding-top: 50px;">
+        <div class="form-group">
+            <label for="logInEmail">Email address</label>
+            <input type="email" class="form-control" id="logInEmail" aria-describedby="emailHelp"
+                   placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="logInPassword">Password</label>
+            <input type="password" class="form-control" id="logInPassword" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="Register" style="padding-top: 50px; padding-bottom: 50px;">
+        <p>Don't have an NewzSite account?</p>
+        <a class="btn btn-dark" href="register.html" role="button">Register Here</a>
+    </div>
+</div>
+
+<div id="footer" align="center">
+    <a href="https://newsapi.org/">Powered by News API</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-firestore.js"></script>
+<script src="scripts/firebase.js"></script>
+<script src="scripts/login.js"></script>
+<script>
+    const auth=firebase.auth();
+</script>
+</body>
+</html>

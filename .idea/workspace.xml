@@ -2,14 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11677148-79b2-4ea6-82f1-4f0db9f1bb7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/associatedpress.html" beforeDir="false" afterPath="$PROJECT_DIR$/associatedpress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbcnews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn.html" beforeDir="false" afterPath="$PROJECT_DIR$/cnn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/entertainment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/espn.html" beforeDir="false" afterPath="$PROJECT_DIR$/espn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foxnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/foxnews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/health.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mashable.html" beforeDir="false" afterPath="$PROJECT_DIR$/mashable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/nbcnews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/science.html" beforeDir="false" afterPath="$PROJECT_DIR$/science.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/abcNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/abcNews.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/cnn.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cnn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/techradar.html" beforeDir="false" afterPath="$PROJECT_DIR$/techradar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/espn.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/espn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/health.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/health.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/techradar.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/techradar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/sports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technology.html" beforeDir="false" afterPath="$PROJECT_DIR$/technology.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thenewyorktimes.html" beforeDir="false" afterPath="$PROJECT_DIR$/thenewyorktimes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theverge.html" beforeDir="false" afterPath="$PROJECT_DIR$/theverge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thewallstreetjournal.html" beforeDir="false" afterPath="$PROJECT_DIR$/thewallstreetjournal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +88,9 @@
       <workItem from="1583337374933" duration="849000" />
       <workItem from="1583338265962" duration="2638000" />
       <workItem from="1583409829661" duration="1804000" />
+      <workItem from="1587763491162" duration="65000" />
+      <workItem from="1587763566252" duration="3000" />
+      <workItem from="1587767025598" duration="253000" />
     </task>
     <servers />
   </component>
