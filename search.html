@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/search.css">
 
     <script>
         const auth = firebase.auth();
@@ -52,7 +53,6 @@
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News Sources</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownSources">
                         <a class="dropdown-item" href="abcnews.html">ABC News</a>
-                        <a class="dropdown-item" href="associatedpress.html">Associated Press</a>
                         <a class="dropdown-item" href="bbcnews.html">BBC News</a>
                         <a class="dropdown-item" href="cnn.html">CNN</a>
                         <a class="dropdown-item" href="espn.html">ESPN</a>
@@ -63,6 +63,7 @@
                         <a class="dropdown-item" href="techradar.html">TechRadar</a>
                         <a class="dropdown-item" href="theverge.html">The Verge</a>
                         <a class="dropdown-item" href="thewallstreetjournal.html">The Wall Street Journal</a>
+                        <a class="dropdown-item" href="usatoday.html">USA Today</a>
                     </div>
                 </li>
             </ul>
@@ -90,23 +91,74 @@
 </header>
 
 <script>
-    function signOut() {
-        firebase.auth().signOut().then(function () {
+    function signOut(){
+        firebase.auth().signOut().then(function() {
             alert("You have signed out");
             location.reload();
-        }).catch(function (error) {
+        }).catch(function(error) {
             alert(error);
         });
     }
 </script>
 
-<div id="root">
-    <link rel="stylesheet" href="styles/articlesGeneral.css">
-    <script src="scripts/associatedpress.js"></script>
-</div>
+<form class="removeDefaultSubmit">
+    <div class="input-group mb-3">
+        <input id="searchPageInput" class="form-control form-control-lg" type="text" placeholder="Search">
+        <div class="input-group-append">
+            <button class="btn btn-dark" type="submit" id="searchBtn">SEARCH!</button>
+        </div>
+    </div>
+</form>
 
+
+<div class="search-container">
+    <div class="advancedSettings">
+        <a class="link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+           aria-controls="collapseExample">
+            CLICK HERE FOR ADVANCED SEARCH FILTERING
+        </a>
+        <div class="collapse" id="collapseExample">
+            <form id="formIDD">
+                <label for="categorySelect">Category</label>
+                <select id="categorySelect">
+                    <option value="general">general</option>
+                    <option value="business">Business</option>
+                    <option value="entertainment">entertainment</option>
+                    <option value="health">health</option>
+                    <option value="science">science</option>
+                    <option value="sports">sports</option>
+                    <option value="technology">technology</option>
+                </select>
+                <br/>
+                <label for="sourceSelect">Source</label>
+                <select id="sourceSelect">
+                    <option value="all">All Sources</option>
+                </select>
+                <br/>
+                <label for="pageSizeSelect">Page Size</label>
+                <select id="pageSizeSelect">
+                    <option value="100">100</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                </select>
+                <br />
+                <label for="fromDate">From</label>
+                <input id="fromDate" type="date"/>
+                <br/>
+                <label for="toDate">To</label>
+                <input id="toDate" type="date" />
+            </form>
+        </div>
+    </div>
+    <div id="searchContainer" class="container-fluid">
+
+    </div>
+</div>
 <div id="footer" align="center">
     <a href="https://newsapi.org/">Powered by News API</a>
 </div>
+
+<script src="scripts/util.js"></script>
+<script src="scripts/search.js"></script>
 </body>
-</html>

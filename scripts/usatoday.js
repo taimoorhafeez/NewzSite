@@ -6,7 +6,7 @@ container.setAttribute('class', 'container');
 app.appendChild(container);
 
 let request = new XMLHttpRequest();
-request.open('GET', 'https://newsapi.org/v2/top-headlines?sources=associated-press&apiKey=f11bdd5aaeaa46ed8f91cad909e6a604', true);
+request.open('GET', 'https://newsapi.org/v2/top-headlines?sources=usa-today&apiKey=f11bdd5aaeaa46ed8f91cad909e6a604', true);
 request.onload = function () {
 
     // Begin accessing JSON data here
@@ -33,7 +33,7 @@ request.onload = function () {
 
         let articleImage = document.createElement('img');
         articleImage.className = 'article-image'
-        if((article.urlToImage != 'null') && (article.urlToImage !== null)){
+        if(article.urlToImage != 'null'){
             articleImage.src = article.urlToImage;
         }
         else articleImage.src = "images/noImage.png";

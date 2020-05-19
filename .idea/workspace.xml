@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11677148-79b2-4ea6-82f1-4f0db9f1bb7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/associatedpress.html" beforeDir="false" afterPath="$PROJECT_DIR$/associatedpress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/associatedpress.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bbcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/bbcnews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cnn.html" beforeDir="false" afterPath="$PROJECT_DIR$/cnn.html" afterDir="false" />
@@ -12,17 +12,18 @@
       <change beforePath="$PROJECT_DIR$/foxnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/foxnews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/health.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mashable.html" beforeDir="false" afterPath="$PROJECT_DIR$/mashable.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nbcnews.html" beforeDir="false" afterPath="$PROJECT_DIR$/nbcnews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/science.html" beforeDir="false" afterPath="$PROJECT_DIR$/science.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/abcNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/abcNews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/cnn.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cnn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/espn.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/espn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/health.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/health.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/techradar.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/techradar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/associatedpress.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/sports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/articlesGeneral.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/articlesGeneral.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technology.html" beforeDir="false" afterPath="$PROJECT_DIR$/technology.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/techradar.html" beforeDir="false" afterPath="$PROJECT_DIR$/techradar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thenewyorktimes.html" beforeDir="false" afterPath="$PROJECT_DIR$/thenewyorktimes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theverge.html" beforeDir="false" afterPath="$PROJECT_DIR$/theverge.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thewallstreetjournal.html" beforeDir="false" afterPath="$PROJECT_DIR$/thewallstreetjournal.html" afterDir="false" />
@@ -45,6 +46,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Yfd2BiAn7X0iaU8HG2ogJf8vU9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -91,6 +95,8 @@
       <workItem from="1587763491162" duration="65000" />
       <workItem from="1587763566252" duration="3000" />
       <workItem from="1587767025598" duration="253000" />
+      <workItem from="1589758464864" duration="1668000" />
+      <workItem from="1589880707863" duration="6256000" />
     </task>
     <servers />
   </component>
@@ -98,6 +104,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589885741531">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1589885741531" />
     <state x="700" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583337378573">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

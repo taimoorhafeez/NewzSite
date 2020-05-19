@@ -1,0 +1,53 @@
+.search-container {
+    margin-top: -24px;
+}
+
+#searchContainer {
+    padding-top: 30px;
+    background-color: #E8FFB3;
+    width: 100%;
+}
+
+.removeDefaultSubmit {
+    background-image: url("https://cdn.britannica.com/25/93825-050-D1300547/collection-newspapers.jpg");
+    width: 100%;
+    margin: auto;
+    padding: 106px;
+    margin-top: 45px;
+    height: 280px;
+}
+
+.fixedNAV {
+    position: fixed;
+}
+
+.myCard {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.myCard:hover {
+    color: white;
+    background-color: #202020;
+    padding: 40px;
+    margin: auto;
+}
+
+.paginationClassBottom {
+    border: 3px solid black;
+    padding: auto;
+    height: 46px;
+
+}
+
+.advancedSettings {
+    /* margin-top: -26px; */
+    /* top: -30; */
+    display: inline-block;
+}
+
+.link {
+    color: black;
+    font-weight: 900;
+} /* CSS link color (red) */
+.link:hover { color: black; } /* CSS link hover (green) */
